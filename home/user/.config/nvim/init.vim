@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 
 	source ~/.vim/common-plugins.vim
 	Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+	Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
 call plug#end()
 
